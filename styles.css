@@ -1,0 +1,171 @@
+:root {
+    --mainColor : #131416;
+    --secondaryColor : #434343;
+    --acsenColor : #01DEEC;
+
+}
+
+body {
+    background-color: var(--mainColor);
+    min-height: 900px;
+    font-family:Poppin, sans-serif;
+
+}
+
+section h1 {
+    color: white;
+    font-size: 2,5rem;
+}
+
+/* navbar */
+.nav-link.active {
+    color: var(--acsenColor) !important;
+    font-weight: 700;
+}
+
+.nav-dark {
+    background-color: var(--secondaryColor) !important;
+    z-index: 100;
+    transition: .7s;
+}
+
+/* section hero */
+.color-acsen {
+    color: var(--acsenColor);
+}
+
+#hero {
+    color: #fff;
+    min-height: 100vh;
+    padding-top: 80px;
+}
+
+#hero h1 {
+    font-size: 3rem;
+    color: var(--acsenColor);
+}
+
+#hero h2 {
+    font-size: 300;
+}
+
+#hero p {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+/* CTA */
+
+.btn-custom1 {
+    background-color: var(--acsenColor);
+    text-align: center;
+    color: #fff;
+    min-width: 150px;
+    height: 45px;
+    font-weight: 700;
+    font-size: 1,2rem;
+}
+
+.btn-custom1:hover {
+    box-shadow: 0 0 24px rgba(0, 187, 255, 0.8);
+} 
+
+.cv {
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+.social-icon img {
+    margin-right: 3px;
+    margin-bottom: 10px;
+}
+
+/* Profile */
+
+hr {
+    width: 35%;
+    height: 5px;
+    color: var(--acsenColor);
+    margin: 0 auto;
+    opacity: 100%;
+}
+
+#profile {
+    min-height: 300px;
+    width: 100%;
+    background-color: var(--secondaryColor);
+    color: #fff;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-bottom: 80px;
+}
+
+.qt {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+/* skill */
+
+#skill {
+    min-height: 600px;
+    width: 100%;
+    color:  #fff;
+}
+
+#skill img {
+    width: 12%;
+    margin: 10px;
+}
+
+#skill .card{
+    background-color: #434343;
+    height:340px;
+    border-radius: 10px;
+}
+
+#skill .card:hover {
+    background-color: var(--acsenColor);
+}
+
+.skill-konten {
+    margin-top: 120px;
+
+}
+
+/* portofolio */
+
+#portofolio .container {
+    padding: 80px 10px;
+
+}
+
+.konten-kotak {
+    width: 100%;
+}
+
+footer {
+    height: 100px;
+    color: var(--acsenColor);
+    background-color: var(--secondaryColor);
+    border-radius: 100;
+    padding-top: 100px;
+}
+
+footer img {
+    width: 20%;
+    margin-bottom: 10px;
+}
+
+.social-icon-icon {
+    margin-right: .7em;
+    margin-bottom: 40px;
+    width: 200px;
+    margin-left: 625px;
+    
+}
+
+.card .img {
+    width: 200px;
+}
