@@ -10,11 +10,11 @@
     .social-icon {
         left: 50%;
         transform: translate(-50%);
-        width: 20%;
+        width: 10%;
     }
 
     #hero .row {
-        padding-bottom: 85px;
+        padding-bottom: 180px;
     }
 
     .btn-custom1 {
@@ -76,5 +76,10 @@
 
     #profile p {
         font-size: 15px !important;
+    }
+
+    .social-icon-icon {
+        margin-left: 140px;
+        width: 100px;
     }
 }
