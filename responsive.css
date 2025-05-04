@@ -54,7 +54,7 @@
     }
 }
 
-@media screen and (max-width : 350px) {
+@media screen and (max-width : 425px) {
     #portofolio .col-md-12 {
         flex-direction: column;
     }
@@ -73,7 +73,7 @@
     }
 
     #hero .social-icon {
-        top: 360px !important;
+        top: 400px !important;
     }
 
     .cv {
@@ -94,3 +94,4 @@
         text-align: center;
     }
 }
+
