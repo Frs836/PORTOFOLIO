@@ -1,5 +1,7 @@
 @media screen and (max-width : 1200px) {
-    
+    .social-icon-icon {
+        margin-left: 500px;
+    }
 }
 
 @media screen and (max-width : 768px) {
@@ -46,6 +48,10 @@
     #hero .row {
         padding-bottom: 85px;
     }
+
+    .social-icon-icon {
+        margin-left: 190px;
+    }
 }
 
 @media screen and (max-width : 350px) {
@@ -67,11 +73,12 @@
     }
 
     #hero .social-icon {
-        top: 370px !important;
+        top: 360px !important;
     }
 
-    #hero .cv {
-        font-size: .6rem;
+    .cv {
+        font-size: 1rem;
+        text-align: center;
     }
 
     #profile p {
@@ -79,7 +86,11 @@
     }
 
     .social-icon-icon {
-        margin-left: 140px;
-        width: 100px;
+        margin-left: 125px;
+        width: 5;
+    }
+
+    #hero .container {
+        text-align: center;
     }
 }
